@@ -28,7 +28,7 @@ public class UserController {
 
 		User user = userdao.getUser(userId);
 
-		String url = "http://localhost:8002/contact/user/" + user.getUserId();
+		String url = "http://contact-service/contact/user/" + user.getUserId();
 		
 		
 
